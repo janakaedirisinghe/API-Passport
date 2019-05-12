@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e528e7db-3b68-4487-b7f0-9d91c5fc2a88" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ProductController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Exceptions/Handler.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Exceptions/Handler.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,7 +15,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ProductController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="472">
@@ -27,23 +27,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/js/app.js">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Exceptions/Handler.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="23" column="3" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
+            <state relative-caret-position="546">
+              <caret line="61" column="43" selection-start-line="61" selection-start-column="43" selection-end-line="61" selection-end-column="43" />
+              <folding>
+                <element signature="e#34#48#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ReviewController.php">
+        <entry file="file://$PROJECT_DIR$/resources/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="59" selection-start-line="18" selection-start-column="59" selection-end-line="18" selection-end-column="59" />
-              <folding>
-                <element signature="e#40#78#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="175">
+              <caret line="23" column="3" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -150,6 +150,7 @@
         <option value="$PROJECT_DIR$/resources/views/home.blade.php" />
         <option value="$PROJECT_DIR$/resources/js/components/passport/PersonalAccessTokens.vue" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/ProductController.php" />
+        <option value="$PROJECT_DIR$/app/Exceptions/Handler.php" />
       </list>
     </option>
   </component>
@@ -277,14 +278,7 @@
               <item name="apiVersion2" type="b2602c69:ProjectViewProjectNode" />
               <item name="apiVersion2" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="apiVersion2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="apiVersion2" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="Exceptions" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="apiVersion2" type="b2602c69:ProjectViewProjectNode" />
@@ -362,12 +356,12 @@
       <workItem from="1557638417231" duration="606000" />
       <workItem from="1557647704497" duration="3231000" />
       <workItem from="1557668087334" duration="946000" />
-      <workItem from="1557669047134" duration="8228000" />
+      <workItem from="1557669047134" duration="9612000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17741000" />
+    <option name="totallyTimeSpent" value="19125000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -627,6 +621,16 @@
           <caret line="110" column="32" selection-start-line="110" selection-start-column="32" selection-end-line="110" selection-end-column="32" />
           <folding>
             <element signature="e#40#77#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Exceptions/Handler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="61" column="43" selection-start-line="61" selection-start-column="43" selection-end-line="61" selection-end-column="43" />
+          <folding>
+            <element signature="e#34#48#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
