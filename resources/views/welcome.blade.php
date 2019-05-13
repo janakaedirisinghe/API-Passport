@@ -106,7 +106,7 @@
 <div class="container">
 
     <div class="row">
-        <div class="col-md-6" style="text-align: center">
+        <div class="col-md-6" style="text-align: center;">
             <h3 >DELETE and UPDATE your data using access token</h3>
             <br>
 <pre style="text-align: left">
