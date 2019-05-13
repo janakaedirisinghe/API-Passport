@@ -97,7 +97,7 @@ class ReviewController extends Controller
     public function destroy(Product $product, Review $review)
     {
         $review->delete();
-        return response(nill,204);
+        return response(null,204);
 
     }
 }
