@@ -168,11 +168,11 @@
         <div class="col-md-6">
             <h3>How to use?</h3>
             <p>You can use AJAX to call the Users Generator API and will receive a generated users in return. </p>
-            <mark style="background-color: #bcc0c2;color: white;" >https://randomusersapi.000webhostapp.com/api </mark>
+            <mark style="background-color: #bcc0c2;color: white;" >http://apiproducts.000webhostapp.com//api </mark>
             <pre style="border-left-width: 5px;border-left-style: solid;border-left-color: #bcc0c2">
 
     $.ajax({
-        url: 'https://randomusersapi.000webhostapp.com/api',
+        url: 'http://apiproducts.000webhostapp.com//api',
         dataType: 'json',
         success: function(data){
         console.log(data);
@@ -190,7 +190,7 @@
             "price": 809,
             "rating": 3,
             "href": {
-                "link": "http://localhost:8000/api/products/1"
+                "link": "http://apiproducts.000webhostapp.com//api/products/1"
             }
         },
         {
@@ -198,7 +198,7 @@
             "price": 274,
             "rating": 1.71,
             "href": {
-                "link": "http://localhost:8000/api/products/2"
+                "link": "http://apiproducts.000webhostapp.com//api/products/2"
             }
         },
         {
@@ -206,7 +206,7 @@
             "price": 700,
             "rating": 2.25,
             "href": {
-                "link": "http://localhost:8000/api/products/3"
+                "link": "http://apiproducts.000webhostapp.com//api/products/3"
             }
         },
         {
@@ -214,7 +214,7 @@
             "price": 536,
             "rating": 0.75,
             "href": {
-                "link": "http://localhost:8000/api/products/5"
+                "link": "http://apiproducts.000webhostapp.com//api/products/5"
             }
         },
         {
@@ -222,21 +222,21 @@
             "price": 515,
             "rating": 2,
             "href": {
-                "link": "http://localhost:8000/api/products/6"
+                "link": "http://apiproducts.000webhostapp.com//api/products/6"
             }
         }
     ],
     "links": {
-        "first": "http://localhost:8000/api/products?page=1",
-        "last": "http://localhost:8000/api/products?page=10",
+        "first": "http://apiproducts.000webhostapp.com//api/products?page=1",
+        "last": "http://apiproducts.000webhostapp.com//api/products?page=10",
         "prev": null,
-        "next": "http://localhost:8000/api/products?page=2"
+        "next": "http://apiproducts.000webhostapp.com//api/products?page=2"
     },
     "meta": {
         "current_page": 1,
         "from": 1,
         "last_page": 10,
-        "path": "http://localhost:8000/api/products",
+        "path": "http://apiproducts.000webhostapp.com//api/products",
         "per_page": 5,
         "to": 5,
         "total": 48
