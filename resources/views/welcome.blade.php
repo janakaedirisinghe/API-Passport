@@ -102,6 +102,135 @@
                 </div>
             </div>
         </div>
+        <br>
+<div class="container">
+    <div class="row">
+        <div class="col-md-10">
+            <h3>Now you can DELETE and UPDATE your data using access token</h3>
+            <br>
+<pre style="text-align: left">
+    Content-Type: application/json
+    Accept: application/json
+    Authorization: Bearer {your_access_token_here}
+</pre>
+        </div>
+        <div class="col-md-2">
+
+
+        </div>
+    </div>
+    <br>
+
+        <h3>Routes</h3>
+        <br>
+        <pre>
+        | POST      | api/products                            |
+        | GET|HEAD  | api/products                            |
+        | GET|HEAD  | api/products/{product}                  |
+        | DELETE    | api/products/{product}                  |
+        | PUT|PATCH | api/products/{product}                  |
+        | POST      | api/products/{product}/reviews          |
+        | GET|HEAD  | api/products/{product}/reviews          |
+        | DELETE    | api/products/{product}/reviews/{review} |
+        | PUT|PATCH | api/products/{product}/reviews/{review} |
+
+            </pre>
+
+    <hr>
+
+
+    <br>
+    <div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-md-6">
+            <h3>How to use?</h3>
+            <p>You can use AJAX to call the Users Generator API and will receive a generated users in return. </p>
+            <mark style="background-color: #bcc0c2;color: white;" >https://randomusersapi.000webhostapp.com/api </mark>
+            <pre style="border-left-width: 5px;border-left-style: solid;border-left-color: #bcc0c2">
+
+    $.ajax({
+        url: 'https://randomusersapi.000webhostapp.com/api',
+        dataType: 'json',
+        success: function(data){
+        console.log(data);
+        }
+    });
+ </pre>
+            <br>
+            <h3>Result</h3>
+            <p>The application will provide you with a object and apply to your application. </p>
+            <pre style="border-left-width: 5px;border-left-style: solid;border-left-color:#bcc0c2">
+ {
+    "data": [
+        {
+            "name": "eum",
+            "price": 809,
+            "rating": 3,
+            "href": {
+                "link": "http://localhost:8000/api/products/1"
+            }
+        },
+        {
+            "name": "repellat",
+            "price": 274,
+            "rating": 1.71,
+            "href": {
+                "link": "http://localhost:8000/api/products/2"
+            }
+        },
+        {
+            "name": "updated",
+            "price": 700,
+            "rating": 2.25,
+            "href": {
+                "link": "http://localhost:8000/api/products/3"
+            }
+        },
+        {
+            "name": "est",
+            "price": 536,
+            "rating": 0.75,
+            "href": {
+                "link": "http://localhost:8000/api/products/5"
+            }
+        },
+        {
+            "name": "dolor",
+            "price": 515,
+            "rating": 2,
+            "href": {
+                "link": "http://localhost:8000/api/products/6"
+            }
+        }
+    ],
+    "links": {
+        "first": "http://localhost:8000/api/products?page=1",
+        "last": "http://localhost:8000/api/products?page=10",
+        "prev": null,
+        "next": "http://localhost:8000/api/products?page=2"
+    },
+    "meta": {
+        "current_page": 1,
+        "from": 1,
+        "last_page": 10,
+        "path": "http://localhost:8000/api/products",
+        "per_page": 5,
+        "to": 5,
+        "total": 48
+    }
+}
+
+ </pre>
+            <br>
+
+            <br>
+
+
+        </div>
+        <div class="col-md-3"></div>
+    </div>
+</div>
+
 
 
 
