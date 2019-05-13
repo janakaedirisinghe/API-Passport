@@ -104,9 +104,10 @@
         </div>
         <br>
 <div class="container">
+
     <div class="row">
-        <div class="col-md-10">
-            <h3>Now you can DELETE and UPDATE your data using access token</h3>
+        <div class="col-md-6" style="text-align: center">
+            <h3 >DELETE and UPDATE your data using access token</h3>
             <br>
 <pre style="text-align: left">
     Content-Type: application/json
@@ -114,8 +115,26 @@
     Authorization: Bearer {your_access_token_here}
 </pre>
         </div>
-        <div class="col-md-2">
+        <div class="col-md-6" style="text-align: center">
+            <h3 >Genarate Token manually</h3>
+            <br>
+            <pre style="text-align: left">
+                POST /oauth/token? HTTP/1.1
+                Host:
+                Accept: application/json
+                Content-Type: application/json
+                cache-control:
 
+
+                {
+                    "grant_type": "password",
+                    "client_id": "{client id}",
+                    "client_secret" : {client_secret},
+                    "username":"{your user email}",
+                    "password":"{your password}"
+
+                }
+            </pre>
 
         </div>
     </div>
